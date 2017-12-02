@@ -8,6 +8,9 @@ const app: Application = express()
 // Middlewares
 
 // Rutas
+app.get("/", (req: Request, res: Response, next: NextFunction)=>{
+    
+})
 
 // Inicio del servidor
 app.listen(4000, () => {
