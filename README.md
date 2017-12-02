@@ -7,7 +7,7 @@ git commit -m ""
 
 git push -u origin master
 
-sudo npm i -g ts-node
+sudo npm i -g ts-node //ts-node to run global ts scripts with node
 
 $ git config --global user.name "Firstname Lastname"
 

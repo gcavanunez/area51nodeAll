@@ -1,0 +1,14 @@
+doctype html
+html
+    head
+        title Curso
+    body
+        block Cabecera
+            h1= titulo
+        h2
+            a(href=url, target="_blank")= pagina
+        ul
+            each usuario in usuarios
+                li= usuario.nombre
+        block scripts
+            script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")
