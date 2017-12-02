@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es6", //Version of Jscript 
+        "module": "commonjs",// libreria
+        "types": [
+            "node",
+            "express"
+        ]
+    },
+    "include": [
+        "**/*.ts" //target files
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
