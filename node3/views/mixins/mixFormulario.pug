@@ -1,0 +1,7 @@
+mixin formulario(url, metodo, dato)
+    form(method="post",action=`${url}?_metodo=${metodo}`)
+        input(type="text",name="nombre",value=`${dato.nombre || ''}`)
+        br
+        input(type="text",name="apellido",value=`${dato.apellido || ''}`)
+        br
+        button(type="summit",value="Enviar") Enviar

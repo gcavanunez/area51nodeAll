@@ -20,3 +20,11 @@ npm i @types/express --save
 npm i pug --save
 
 npm i nodemon -g
+
+npm i body-parser 
+
+npm i method-override 
+
+npm i morgan
+
+npm i mongoose @types/mongoose --save
