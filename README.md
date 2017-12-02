@@ -18,3 +18,5 @@ npm i express --save
 npm i @types/express --save
 
 npm i pug --save
+
+npm i nodemon -g
